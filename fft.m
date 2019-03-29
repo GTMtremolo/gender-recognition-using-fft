@@ -14,8 +14,6 @@ if nargout
 else
     gui_mainfcn(gui_State, varargin{:});
 end
-
-
 function assignment_OpeningFcn(hObject, eventdata, handles, varargin)
 handles.output = hObject;
 guidata(hObject, handles);
